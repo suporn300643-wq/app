@@ -23,7 +23,9 @@
             color: #333;
         }
         .app-button {
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             width: 80%;
             margin: 15px auto;
             padding: 15px;
@@ -38,15 +40,34 @@
         .app-button:hover {
             background-color: #0056b3;
         }
+        .app-button img {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>เลือกแอปพลิเคชันเพื่อติดตั้ง</h1>
-        <a href="itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLProPlus/prod-proplus.plist" class="app-button">ติดตั้งแอป TL ProPlus</a>
-        <a href="itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLAfter/tlafterplus.plist" class="app-button">ติดตั้งแอป TLAfterPlus</a>
-        <a href="itms-services://?action=download-manifest&url= itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLTeam/tlteamplus.plist" class="app-button">ติดตั้งแอป TLTeamPlus</a>
-        <a href="itms-services://?action=download-manifest&url= itms-services://?action=download-manifest&url=https://direct.thailife.com/tlappscenter/asset/TLSmart/prod-asa.plist" class="app-button">ติดตั้งแอป TLSmart</a>
+		<h2>ฝ่ายขยายงานภูมิภาค 4</h2>
+		<h3>(กดที่ติดตั้งแอป และกดติดตั้งอีกที)</h3>
+        <a href="itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLProPlus/prod-proplus.plist" class="app-button">
+            <img src="https://da-s3-content.thailife.com/prod/private/ios/icon/tlproplus.png?Expires=1754555896&Signature=JK5SohPFUOhL2ZjZVXsY1YqSlAaU1sJBnzoxzkbBEGXOKqJ~YQkXuNvz47tPOupMMxnmQgdrRhv5ZIaeibDxKOiN18sjtTlTUFyv18lkAVOA~FWa7eCr4U93Xivvq6sr2NfBtWe8niazOn5BBmn3y1KHSFhILb-Ppa926YJzfoXLx9TuPN4RaW0MdwsTPaNYbmV6Vxyc42oBthBkzRXP-HwJfnnoEHvk5Ha8XAVoCPoc4LQx2kLltouPplTXeAD3lkqf60XkQMvu1XVtQ9w7bNGfcZRcrhSA0gTKarPM~sQyo0EiCyGi4r0zTbR9brCSOr9l5qmqFCyF1s1wiyYhdg__&Key-Pair-Id=KZ7O8WURMG8MU" alt="ไอคอน TL ProPlus">
+            ติดตั้งแอป TL ProPlus
+        </a>
+        <a href="itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLAfter/tlafterplus.plist" class="app-button">
+            <img src="https://da-s3-content.thailife.com/prod/private/ios/icon/tlteam.png?Expires=1754555896&Signature=WarYHDu5o1hHUChF0PLTyDVn5XUis8nCsF3NxFxY2G1a14o7jqhPBe0clmIRhaMOU14zd9eu4ovuW0Xy6aIXQ3MpIMCHnc~Errqndu1SAsgmGYJ~ySGBmjseVdSeUcAnq3FkstAyOf2wzlSfckfWzDVgP~oviRgZbAutWLUf5S7oEfxVH8SoklRrkLtWHA2-QuA9e6dULh4Z7WmqhUsVARUO3BARbYMJsp1gENKmv604qHMfX3q0pcfCeRvNAkj3xlWPsYdG05rCGWCd8WB6kjvgDZCk1GJ7C3h4D~cXIAL0duyGFDm-p74QH4TsLQBHhpNq0sWKBZaukUeRNjK-zQ__&Key-Pair-Id=KZ7O8WURMG8MU" alt="ไอคอน TLAfterPlus">
+            ติดตั้งแอป TLAfterPlus
+        </a>
+        <a href="itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLTeam/tlteamplus.plist" class="app-button">
+            <img src="https://da-s3-content.thailife.com/prod/private/ios/icon/tlafter.png?Expires=1754555896&Signature=pF5AN2EkjA7bkhBFyZmErv5VvKscxrvSqlmKycXD6NZKKk046sZXrMqeSfwBv6I3Resy818uTLB2gDonUrG0j6Jt7jh2APED-jt73iaWCpzKafWx2oNVt~FnN86ms30~wpgMmlEnongjWtm36pf911KYofbUrvI4J9aK1kDK4oiSJ8~bG4xsAwu4ZtIdh7ZzF3p2H6LGxQL5xQO5YpO6I0~wsUNM97C8b3wXZ9oU~E880-yy0NH-FJYDa0hQ7ARhpz33WofVg69ddisYIY5uaqvwHk4IGpv2WJF36SZSEyUBPRlekOG2kl7YaLcIlW43c4A5AoV9l3wurYsNUjFBEQ__&Key-Pair-Id=KZ7O8WURMG8MU" alt="ไอคอน TLTeamPlus">
+            ติดตั้งแอป TLTeamPlus
+        </a>
+        <a href="itms-services://?action=download-manifest&url=https://direct.thailife.com/tlappscenter/asset/TLSmart/prod-asa.plist" class="app-button">
+            <img src="https://da-s3-content.thailife.com/prod/private/ios/icon/tlsmart.png?Expires=1754555896&Signature=FMINh1N~5R6oORdMYy43h7GPX8ZmIteGz~jZ1bX~p7hJRPnBHJji3KT98oBjT6xCCcI5jZ04Xi~GmjZvtj8A9oChoabcIPgdss~uos4heaD755QiJTOppiJCW6sgJloULDSmpCOJwXsmBpwpZx0hsq5RWyuYkbk1BfxrzyYUvR67oxpp1EzijXp-WtAMGDPDEhg1Z1ou4LJwZZBw0l9uPHas7xPf-ovN86iDsT2avMzfVzLFlWj9mezzSPY5WFT-RFNtCEoTEREbzF3kjfEA2oCVR9LkDyrYR9H8gFwhdvrdZEoSuX0Xn6Kyt2rCFtaavJGt5sFE22IHSss5EtOVOw__&Key-Pair-Id=KZ7O8WURMG8MU" alt="ไอคอน TLSmart">
+            ติดตั้งแอป TLSmart
+        </a>
     </div>
 </body>
 </html>
